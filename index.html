@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#06100D">
+  <title>100 Artificiales Dijeron — El juego de las respuestas impredecibles</title>
+  <meta name="description" content="Convierte cualquier tema en un guion de 100 Artificiales Dijeron: preguntas, respuestas y puntos listos para jugar.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header" data-navbar>
+    <div class="nav-shell">
+      <a class="brand" href="#inicio" aria-label="100 Artificiales Dijeron — Inicio">
+        <svg class="brand__logo" viewBox="0 0 240 60" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient id="navLeafGradient" x1="26" y1="18" x2="50" y2="44" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#3DF5A6"/>
+              <stop offset="1" stop-color="#22D3EE"/>
+            </linearGradient>
+          </defs>
+
+          <g fill="#22D3EE" opacity=".55">
+            <rect x="9.5" y="17.5" width="5.5" height="3" rx="1.5"/>
+            <rect x="9.5" y="28.5" width="5.5" height="3" rx="1.5"/>
+            <rect x="9.5" y="39.5" width="5.5" height="3" rx="1.5"/>
+            <rect x="61" y="17.5" width="5.5" height="3" rx="1.5"/>
+            <rect x="61" y="28.5" width="5.5" height="3" rx="1.5"/>
+            <rect x="61" y="39.5" width="5.5" height="3" rx="1.5"/>
+            <rect x="25.5" y="1.5" width="3" height="5.5" rx="1.5"/>
+            <rect x="36.5" y="1.5" width="3" height="5.5" rx="1.5"/>
+            <rect x="47.5" y="1.5" width="3" height="5.5" rx="1.5"/>
+            <rect x="25.5" y="53" width="3" height="5.5" rx="1.5"/>
+            <rect x="36.5" y="53" width="3" height="5.5" rx="1.5"/>
+            <rect x="47.5" y="53" width="3" height="5.5" rx="1.5"/>
+          </g>
+
+          <rect x="14" y="6" width="48" height="48" rx="14" fill="#0E1F19"/>
+          <rect x="14" y="6" width="48" height="48" rx="14" fill="none" stroke="#3DF5A6" stroke-opacity=".32" stroke-width="1.5"/>
+
+          <path d="M38 46c-8.8-5.2-13.4-13.2-9.7-21.3C31.5 18.4 35.7 15.8 38 15c2.3.8 6.5 3.4 9.7 9.7 3.7 8.1-.9 16.1-9.7 21.3Z" fill="url(#navLeafGradient)"/>
+          <path d="M38 42.5V20.5M38 29.5h6v-6M38 36h-6v5" fill="none" stroke="#06100D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="44" cy="23.5" r="1.9" fill="#06100D"/>
+          <circle cx="32" cy="41" r="1.9" fill="#06100D"/>
+
+          <text x="76" y="45" fill="#3DF5A6" font-family="'Space Grotesk', Inter, Arial, sans-serif" font-size="36" font-weight="700" letter-spacing="-2">100</text>
+          <text x="144" y="28" fill="#ECF7F1" font-family="'Space Grotesk', Inter, Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="1.4">ARTIFICIALES</text>
+          <text x="144" y="45" fill="#9CB8AB" font-family="'Space Grotesk', Inter, Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="1.4">DIJERON</text>
+          <circle cx="206" cy="41.5" r="2.2" fill="#22D3EE"/>
+        </svg>
+      </a>
+
+      <nav class="nav" id="primary-nav" aria-label="Navegación principal" data-nav-panel>
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#caracteristicas">Características</a></li>
+          <li><a class="nav__link" href="#metricas">Métricas</a></li>
+          <li><a class="nav__link" href="#precios">Precios</a></li>
+        </ul>
+
+        <a class="btn btn--primary nav__cta-mobile" href="#precios">
+          <span class="btn__label">Comenzar Ahora</span>
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--primary nav__cta" href="#precios">
+          <span class="btn__label">Comenzar Ahora</span>
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menú">
+          <span class="nav-toggle__bars" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="badge">
+            <span class="badge__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M13 2 4.5 13H11l-1 9L19.5 11H13V2Z" fill="currentColor"/>
+              </svg>
+            </span>
+            <span class="badge__label">Versión 2.0 en Vivo</span>
+            <span class="badge__dot" aria-hidden="true"></span>
+          </p>
+
+          <h1 class="hero__title">
+            100 respuestas.<br>
+            <span class="text-gradient">Una IA.</span><br>
+            Cero filtros.
+          </h1>
+
+          <p class="hero__lead">
+            Convierte cualquier tema en un guion de
+            <strong>100 Artificiales Dijeron</strong> con preguntas, respuestas y puntos
+            listos para jugar.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#precios">
+              <span class="btn__label">Comenzar Ahora</span>
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+
+            <a class="btn btn--ghost" href="#caracteristicas">
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M8 5.5v13l10-6.5-10-6.5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+              </svg>
+              <span class="btn__label">Ver cómo funciona</span>
+            </a>
+          </div>
+
+          <p class="hero__note">Sin tarjeta · 3 guiones gratis · Listo en segundos</p>
+        </div>
+
+        <div class="hero__board">
+          <div class="board" role="img" aria-label="Tablero de ejemplo con cinco respuestas y sus puntos">
+            <div class="board__header">
+              <span class="board__kicker">Tablero en vivo</span>
+              <span class="board__status">IA conectada</span>
+            </div>
+
+            <div class="board__row board__row--hot" style="--i: 0">
+              <span class="board__num">1</span>
+              <span class="board__answer">El primo que “sabe de todo”</span>
+              <span class="board__points">38</span>
+            </div>
+            <div class="board__row" style="--i: 1">
+              <span class="board__num">2</span>
+              <span class="board__answer">“¿Ya comieron?”</span>
+              <span class="board__points">24</span>
+            </div>
+            <div class="board__row" style="--i: 2">
+              <span class="board__num">3</span>
+              <span class="board__answer">La tía que pregunta por el novio</span>
+              <span class="board__points">17</span>
+            </div>
+            <div class="board__row" style="--i: 3">
+              <span class="board__num">4</span>
+              <span class="board__answer">El tío que saca la política</span>
+              <span class="board__points">12</span>
+            </div>
+            <div class="board__row" style="--i: 4">
+              <span class="board__num">5</span>
+              <span class="board__answer">“No traje efectivo”</span>
+              <span class="board__points">9</span>
+            </div>
+          </div>
+
+          <div class="board-prompt" aria-hidden="true">
+            <span class="board-prompt__label">Tema</span>
+            <span class="board-prompt__text">Reunión familiar que termina en discusión</span>
+            <span class="board-prompt__cursor"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="caracteristicas">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__eyebrow">Características</p>
+          <h2 class="section__title">De una idea a un guion jugable, sin fricción.</h2>
+          <p class="section__lead">
+            La IA hace el trabajo pesado. Tú solo eliges el tema, ajustas el tono
+            y presumes que ganaste.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature">
+            <div class="feature__top">
+              <span class="feature__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M6.5 3.5h7l4 4v13h-11v-17Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                  <path d="M13.5 3.5v4h4" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                  <path d="M9.5 12.5h5M9.5 16h3.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <span class="feature__index" aria-hidden="true">01</span>
+            </div>
+            <h3>Guion en segundos</h3>
+            <p>Escribe un tema y recibe preguntas, respuestas y puntajes con estructura de programa.</p>
+          </article>
+
+          <article class="feature">
+            <div class="feature__top">
+              <span class="feature__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <rect x="3.5" y="4.5" width="17" height="15" rx="2.5" stroke="currentColor" stroke-width="1.7"/>
+                  <path d="M3.5 9.5h17M9.5 9.5v10" stroke="currentColor" stroke-width="1.7"/>
+                </svg>
+              </span>
+              <span class="feature__index" aria-hidden="true">02</span>
+            </div>
+            <h3>Tablero listo para jugar</h3>
+            <p>Revela respuestas, suma puntos y lleva el ritmo del show sin preparar nada extra.</p>
+          </article>
+
+          <article class="feature">
+            <div class="feature__top">
+              <span class="feature__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M4 7h8M17 7h3M4 17h3M12 17h8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                  <circle cx="14.5" cy="7" r="2.2" stroke="currentColor" stroke-width="1.7"/>
+                  <circle cx="9.5" cy="17" r="2.2" stroke="currentColor" stroke-width="1.7"/>
+                </svg>
+              </span>
+              <span class="feature__index" aria-hidden="true">03</span>
+            </div>
+            <h3>Personalidad propia</h3>
+            <p>Ajusta el humor, el nivel de picardía y el estilo para que cada guion suene a tu grupo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--metrics" id="metricas">
+      <div class="container">
+        <div class="section__head section__head--row">
+          <div>
+            <p class="section__eyebrow">Métricas</p>
+            <h2 class="section__title">Números que ni la tía puede cuestionar.</h2>
+          </div>
+          <p class="metrics__note">Datos de demostración para el prototipo.</p>
+        </div>
+
+        <div class="metrics__grid">
+          <div class="metric">
+            <p class="metric__value">3,200+</p>
+            <p class="metric__label">guiones generados</p>
+          </div>
+          <div class="metric">
+            <p class="metric__value">48k</p>
+            <p class="metric__label">respuestas en el tablero</p>
+          </div>
+          <div class="metric">
+            <p class="metric__value">12s</p>
+            <p class="metric__label">promedio por guion</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="precios">
+      <div class="container">
+        <div class="pricing">
+          <div class="pricing__copy">
+            <p class="section__eyebrow">Precios</p>
+            <h2 class="section__title">Empieza gratis.<br>Escala cuando el juego se ponga bueno.</h2>
+            <p class="section__lead">
+              Genera tus primeros guiones sin costo. Cuando quieras más temas,
+              más rondas y tu propio estilo, pasa al plan Estudio.
+            </p>
+
+            <ul class="pricing__list">
+              <li>3 guiones gratis al mes</li>
+              <li>Tablero interactivo incluido</li>
+              <li>Sin tarjeta de crédito</li>
+            </ul>
+          </div>
+
+          <div class="pricing__card">
+            <div class="pricing__card-head">
+              <span class="pricing__tag">Plan Inicial</span>
+              <span class="pricing__badge">Popular</span>
+            </div>
+
+            <p class="pricing__price">$0<span>/mes</span></p>
+            <p class="pricing__price-note">Para siempre. En serio.</p>
+
+            <a class="btn btn--primary pricing__cta" href="#inicio">
+              <span class="btn__label">Comenzar Ahora</span>
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+
+            <p class="pricing__micro">Sin tarjeta · Cancela cuando quieras</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>© 2026 100 Artificiales Dijeron. Hecho con IA y opiniones muy humanas.</p>
+      <a href="#inicio">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <script src="scripts/navbar.js" defer></script>
+</body>
+</html>
