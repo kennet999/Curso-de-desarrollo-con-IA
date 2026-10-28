@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="100 Artificiales Dijeron">
+  <defs>
+    <linearGradient id="faviconLeaf" x1="20" y1="18" x2="46" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3DF5A6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#06100D"/>
+  <rect x="6" y="6" width="52" height="52" rx="14" fill="#0E1F19" stroke="#3DF5A6" stroke-opacity=".32" stroke-width="1.5"/>
+  <path d="M32 50c-10-6-15.2-15-11-24.2C24.6 18.7 29.4 15.7 32 14.8c2.6 1 7.4 3.9 11 11 4.2 9.2-1 18.2-11 24.2Z" fill="url(#faviconLeaf)"/>
+  <path d="M32 46V21M32 30h7v-7M32 38h-7v6" fill="none" stroke="#06100D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="39" cy="25" r="2.1" fill="#06100D"/>
+  <circle cx="25" cy="44" r="2.1" fill="#06100D"/>
+</svg>

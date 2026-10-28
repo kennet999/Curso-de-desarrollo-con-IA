@@ -1,0 +1,32 @@
+---
+import { features } from "../data/features";
+import FeatureIcon from "./FeatureIcon.astro";
+---
+
+<section class="section" id="caracteristicas">
+  <div class="container">
+    <div class="section__head">
+      <p class="section__eyebrow">Características</p>
+      <h2 class="section__title">De una idea a un guion jugable, sin fricción.</h2>
+      <p class="section__lead">
+        La IA hace el trabajo pesado. Tú solo eliges el tema, ajustas el tono
+        y presumes que ganaste.
+      </p>
+    </div>
+
+    <div class="feature-grid">
+      {features.map((feature, index) => (
+        <article class="feature">
+          <div class="feature__top">
+            <span class="feature__icon" aria-hidden="true">
+              <FeatureIcon name={feature.icon} />
+            </span>
+            <span class="feature__index" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
+          </div>
+          <h3>{feature.title}</h3>
+          <p>{feature.description}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
