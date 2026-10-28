@@ -1,0 +1,32 @@
+---
+import type { FeatureIcon } from "../data/features";
+
+interface Props {
+  name: FeatureIcon;
+}
+
+const { name } = Astro.props;
+---
+
+{name === "script" && (
+  <svg viewBox="0 0 24 24" fill="none">
+    <path d="M6.5 3.5h7l4 4v13h-11v-17Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"></path>
+    <path d="M13.5 3.5v4h4" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"></path>
+    <path d="M9.5 12.5h5M9.5 16h3.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path>
+  </svg>
+)}
+
+{name === "board" && (
+  <svg viewBox="0 0 24 24" fill="none">
+    <rect x="3.5" y="4.5" width="17" height="15" rx="2.5" stroke="currentColor" stroke-width="1.7"></rect>
+    <path d="M3.5 9.5h17M9.5 9.5v10" stroke="currentColor" stroke-width="1.7"></path>
+  </svg>
+)}
+
+{name === "tune" && (
+  <svg viewBox="0 0 24 24" fill="none">
+    <path d="M4 7h8M17 7h3M4 17h3M12 17h8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path>
+    <circle cx="14.5" cy="7" r="2.2" stroke="currentColor" stroke-width="1.7"></circle>
+    <circle cx="9.5" cy="17" r="2.2" stroke="currentColor" stroke-width="1.7"></circle>
+  </svg>
+)}

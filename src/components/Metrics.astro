@@ -1,0 +1,24 @@
+---
+import { metrics } from "../data/metrics";
+---
+
+<section class="section section--metrics" id="metricas">
+  <div class="container">
+    <div class="section__head section__head--row">
+      <div>
+        <p class="section__eyebrow">Métricas</p>
+        <h2 class="section__title">Números que ni la tía puede cuestionar.</h2>
+      </div>
+      <p class="metrics__note">Datos de demostración para el prototipo.</p>
+    </div>
+
+    <div class="metrics__grid">
+      {metrics.map((metric) => (
+        <div class="metric">
+          <p class="metric__value">{metric.value}</p>
+          <p class="metric__label">{metric.label}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
